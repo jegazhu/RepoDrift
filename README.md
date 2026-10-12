@@ -17,6 +17,16 @@ An agent submission receives a definitive **PASS** only when it successfully cle
 
 ---
 
+## 📊 Empirical Findings & Dataset Scale
+
+During large-scale benchmark discovery across high-star open-source codebases, RepoDrift successfully indexed and filtered **16 high-value migration tasks** across critical enterprise frameworks:
+- **`vllm-project/vllm`** (Apache-2.0): Evaluated for `get_event_loop` patterns.
+- **`home-assistant/core`** (Apache-2.0): Assessed for asynchronous event loop updates.
+- **`crewAIInc/crewAI`** (MIT): Validated for multi-file deprecation mapping.
+- **`scikit-learn/scikit-learn`** (BSD-3-Clause): Tracked for legacy collection mappings.
+
+---
+
 ## 📂 Repository Structure
 
 - `harness/`: Contains the evaluation logic, static auditing tools, and test runners.
